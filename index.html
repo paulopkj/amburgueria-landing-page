@@ -1,0 +1,219 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hamburgueria os Tops</title>
+    <link rel="stylesheet" href="./stylles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">🍔 Hamburgueria <span>os Tops</span></div>
+      <nav class="nav">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#pedido">Pedido</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero sr-fade">
+      <h1>O melhor hambúrguer <span>da cidade</span></h1>
+      <p>Suculento, artesanal e feito na hora para você!</p>
+      <a href="#pedido" class="btn">Fazer Pedido</a>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre sr-up">
+      <div class="text">
+        <h2>Sobre nós</h2>
+        <p>
+          Na <b>Hamburgueria Sabor</b> usamos apenas ingredientes frescos,
+          carnes selecionadas e muito carinho em cada hambúrguer. Nosso objetivo
+          é proporcionar uma experiência única em sabor e atendimento.
+        </p>
+      </div>
+      <img
+        src="./assets/amburg01.jpeg"
+        alt="Hambúrguer artesanal"
+      />
+    </section>
+
+    <!-- CARDÁPIO -->
+    <section id="cardapio" class="cardapio sr-fade">
+      <h2>Nosso Cardápio</h2>
+      <div class="menu-items">
+        <div class="card">
+          <img
+            src="./assets/amburg02.jpeg"
+            alt="Classic Burger"
+          />
+          <h3>Classic Burger</h3>
+          <p>Pão, carne 180g, queijo, alface e tomate.</p>
+          <a href="#pedido" class="btn-2">Pedir Agora</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/amburg03.jpeg"
+            alt="Cheese Bacon"
+          />
+          <h3>Cheese Bacon</h3>
+          <p>Pão brioche, carne 200g, cheddar, bacon crocante.</p>
+          <a href="#pedido" class="btn-2">Pedir Agora</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/assets/amburg04.jpeg"
+            alt="Veggie Burger"
+          />
+          <h3>Veggie Burger</h3>
+          <p>Hambúrguer de grão-de-bico, queijo, alface e molho especial.</p>
+          <a href="#pedido" class="btn-2">Pedir Agora</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/amburg07.jpeg"
+            alt="Veggie Burger"
+          />
+          <h3>Smash burger</h3>
+          <p>
+            A carne do sanduiche é menor e mais fina que o
+            <b>blend para amburgue </b>tradicional.
+          </p>
+          <a href="#pedido" class="btn-2">Pedir Agora</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/amburg05.jpeg"
+            alt="Gourmet Burger"
+          />
+          <h3>Gourmet Burger</h3>
+          <p>
+            Um gourmet burger tem dentro ingredientes de alta qualidade e
+            cuidadosamente selecionados.
+          </p>
+          <a href="#pedido" class="btn-2">Pedir Agora</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/amburg06.jpeg"
+            alt="Veggie Burger"
+          />
+          <h3>Veggie Burger</h3>
+          <p>
+            Um mini Hambúrguer, de 5 centímetros de diâmetro e tem poucos
+            ingredientes.
+          </p>
+          <a href="#pedido" class="btn-2">Pedir Agora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section class="avaliacoes sr-up">
+      <h2>O que dizem nossos clientes</h2>
+      <div class="reviews">
+        <div class="review">
+          <img
+            src="./assets/clinte03.jpeg"
+            alt="Cliente"
+          />
+          <p>
+            “O melhor hambúrguer que já comi na vida, atendimento impecável!”
+          </p>
+          <h3>Maria Souza</h3>
+        </div>
+
+        <div class="review">
+          <img
+            src="./assets/cliente02.jpg"
+            alt="Cliente"
+          />
+          <p>“Chegou quentinho, sabor incrível e super rápido!”</p>
+          <br />
+          <h3>João Silva</h3>
+        </div>
+
+        <div class="review">
+          <img
+            src="./assets/cliente04.jpeg"
+            alt="Cliente"
+          />
+          <p>“Hambúrguer top, com local aconchegante. Perfeito pra levar crush.”</p>
+          <br />
+          <h3>Sabrina</h3>
+        </div>
+
+        <div class="review">
+          <img
+            src="./assets/cliente01.avif"
+            alt="Cliente"
+          />
+          <p>“Melhor hambúrguer que já provei! O molho deles então, nem se fala.”</p>
+          <br />
+          <h3>Paulo</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO DE PEDIDO -->
+    <section id="pedido" class="pedido sr-fade">
+      <h2>Faça seu Pedido</h2>
+      <form class="form">
+        <input type="text" placeholder="Seu Nome" required />
+        <input type="tel" placeholder="Telefone" required />
+        <select required>
+          <option value="">Selecione seu Hambúrguer</option>
+          <option>Classic Burger</option>
+          <option>Cheese Bacon</option>
+          <option>Veggie Burger</option>
+        </select>
+        <textarea placeholder="Observações (opcional)"></textarea>
+        <button type="submit" class="btn">Enviar Pedido</button>
+      </form>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato sr-up">
+      <h2>Entre em contato</h2>
+      <p>Siga a gente nas redes sociais!</p>
+      <div class="social">
+        <a href="#">📘 Facebook</a>
+        <a href="#">📸 Instagram</a>
+        <a href="#">💬 WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- BOTÃO FIXO DO WHATSAPP -->
+    <a
+      href="https://api.whatsapp.com/send?phone=55SEUNUMERO&text=Olá!%20Gostaria%20de%20fazer%20um%20pedido%20na%20Hamburgueria%20Sabor."
+      target="_blank"
+      class="whatsapp-btn"
+    >
+      💬 WhatsApp
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer sr-fade">
+      <p>
+        © <span id="year"></span> Hamburgueria os Tops. Todos os direitos
+        reservados.
+      </p>
+    </footer>
+
+    <!-- ESCRIPT -->
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
