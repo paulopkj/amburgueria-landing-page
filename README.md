@@ -6,7 +6,7 @@ Projeto front-end desenvolvido para simular o site institucional de uma hamburgu
 
 ## 🎥 Demonstração
 
-https://github.com/user-attachments/assets/b959ce24-e2a2-47de-9ae8-0d8032432150
+https://github.com/user-attachments/assets/ab2fe5e6-6748-4160-969c-734a64d5e571
 
 ---
 
