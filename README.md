@@ -34,4 +34,4 @@ Em desenvolvimento 🚧
 Desenvolvedor Full Stack 🚀  
 
 📌 GitHub: https://github.com/seu-usuario  
-📌 LinkedIn: https://www.linkedin.com/feed/
+📌 LinkedIn: https://www.linkedin.com/in/fullstack-paulo-ricardo
